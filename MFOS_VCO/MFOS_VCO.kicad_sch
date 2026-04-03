@@ -3238,6 +3238,16 @@
 	)
 	(wire
 		(pts
+			(xy 275.59 147.32) (xy 284.48 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5cab749b-974e-4fbe-b21b-4be6b4114226")
+	)
+	(wire
+		(pts
 			(xy 97.79 106.68) (xy 97.79 111.76)
 		)
 		(stroke
@@ -4355,6 +4365,16 @@
 			(type default)
 		)
 		(uuid "fe936ea6-3891-47f0-8778-ebf510effce8")
+	)
+	(label "SYNC"
+		(at 284.48 147.32 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "66cac2ce-34c2-4a8c-9e21-2414a18682e5")
 	)
 	(label "LIN"
 		(at 102.87 158.75 0)
@@ -5969,22 +5989,22 @@
 			)
 		)
 		(pin "3"
-			(uuid "9669860c-668c-4ccd-a4fb-abfaf1816af2")
+			(uuid "9669860c-668c-4ccd-a4fb-abfaf1816af3")
 		)
 		(pin "7"
-			(uuid "296cecb5-5c68-484c-bd98-09ab8700dcaa")
+			(uuid "296cecb5-5c68-484c-bd98-09ab8700dcab")
 		)
 		(pin "1"
-			(uuid "7cd6bae8-29f3-41a2-9be3-92effed6b4de")
+			(uuid "7cd6bae8-29f3-41a2-9be3-92effed6b4df")
 		)
 		(pin "2"
-			(uuid "dc0452e2-bf33-4bae-94fd-03f3e172d903")
+			(uuid "dc0452e2-bf33-4bae-94fd-03f3e172d904")
 		)
 		(pin "6"
-			(uuid "cf8a2c1e-0527-403e-afb8-2a16cd417ca6")
+			(uuid "cf8a2c1e-0527-403e-afb8-2a16cd417ca7")
 		)
 		(pin "8"
-			(uuid "a73fd679-3f5b-4274-bdd9-0f364cc53b44")
+			(uuid "a73fd679-3f5b-4274-bdd9-0f364cc53b45")
 		)
 		(instances
 			(project "MFOS_VCO"
@@ -6945,28 +6965,28 @@
 			)
 		)
 		(pin "5"
-			(uuid "cb529379-0c2b-4c62-b342-a1cd5f88e645")
+			(uuid "cb529379-0c2b-4c62-b342-a1cd5f88e646")
 		)
 		(pin "3"
-			(uuid "a940f056-e8a0-4924-b922-f2fb2cfda4d4")
+			(uuid "a940f056-e8a0-4924-b922-f2fb2cfda4d5")
 		)
 		(pin "2"
-			(uuid "d576a089-006c-4367-9a5d-a4ba0dad3c1c")
+			(uuid "d576a089-006c-4367-9a5d-a4ba0dad3c1d")
 		)
 		(pin "1"
-			(uuid "bf6a97a6-db19-4378-944b-7807cb7ab67f")
+			(uuid "bf6a97a6-db19-4378-944b-7807cb7ab680")
 		)
 		(pin "7"
-			(uuid "984a466e-8ecf-434b-b763-e698387fae92")
+			(uuid "984a466e-8ecf-434b-b763-e698387fae93")
 		)
 		(pin "4"
-			(uuid "0a4a93a9-2e26-4a5c-a5ef-8ef33a057880")
+			(uuid "0a4a93a9-2e26-4a5c-a5ef-8ef33a057881")
 		)
 		(pin "8"
-			(uuid "37a4d6d6-6d87-4012-8263-8a492b265ff5")
+			(uuid "37a4d6d6-6d87-4012-8263-8a492b265ff6")
 		)
 		(pin "6"
-			(uuid "60aae695-dacb-4c57-b28c-95a7376bb004")
+			(uuid "60aae695-dacb-4c57-b28c-95a7376bb005")
 		)
 		(instances
 			(project "MFOS_VCO"
@@ -7608,6 +7628,85 @@
 			(project "MFOS_VCO"
 				(path "/57f1a258-7b41-4712-b390-4a538c470a3a"
 					(reference "R18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Jack-DC")
+		(at 267.97 149.86 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "8512d355-8ed0-4843-b2d2-67cc59744285")
+		(property "Reference" "J10"
+			(at 257.556 148.082 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SYNC"
+			(at 257.556 150.622 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 269.24 150.876 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 269.24 150.876 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "DC Barrel Jack"
+			(at 267.97 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "5734071b-b57a-4670-a568-8d806509d99d")
+		)
+		(pin "1"
+			(uuid "feaa0956-40aa-4371-8b62-bd2fd6986fbb")
+		)
+		(instances
+			(project "MFOS_VCO"
+				(path "/57f1a258-7b41-4712-b390-4a538c470a3a"
+					(reference "J10")
 					(unit 1)
 				)
 			)
@@ -8411,28 +8510,28 @@
 			)
 		)
 		(pin "5"
-			(uuid "cb529379-0c2b-4c62-b342-a1cd5f88e645")
+			(uuid "cb529379-0c2b-4c62-b342-a1cd5f88e647")
 		)
 		(pin "3"
-			(uuid "a940f056-e8a0-4924-b922-f2fb2cfda4d4")
+			(uuid "a940f056-e8a0-4924-b922-f2fb2cfda4d6")
 		)
 		(pin "2"
-			(uuid "d576a089-006c-4367-9a5d-a4ba0dad3c1c")
+			(uuid "d576a089-006c-4367-9a5d-a4ba0dad3c1e")
 		)
 		(pin "1"
-			(uuid "bf6a97a6-db19-4378-944b-7807cb7ab67f")
+			(uuid "bf6a97a6-db19-4378-944b-7807cb7ab681")
 		)
 		(pin "7"
-			(uuid "984a466e-8ecf-434b-b763-e698387fae92")
+			(uuid "984a466e-8ecf-434b-b763-e698387fae94")
 		)
 		(pin "4"
-			(uuid "0a4a93a9-2e26-4a5c-a5ef-8ef33a057880")
+			(uuid "0a4a93a9-2e26-4a5c-a5ef-8ef33a057882")
 		)
 		(pin "8"
-			(uuid "37a4d6d6-6d87-4012-8263-8a492b265ff5")
+			(uuid "37a4d6d6-6d87-4012-8263-8a492b265ff7")
 		)
 		(pin "6"
-			(uuid "60aae695-dacb-4c57-b28c-95a7376bb004")
+			(uuid "60aae695-dacb-4c57-b28c-95a7376bb006")
 		)
 		(instances
 			(project "MFOS_VCO"

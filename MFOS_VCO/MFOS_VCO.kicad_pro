@@ -630,15 +630,24 @@
         "filename": "MFOS_VCO.kicad_sch",
         "name": "Core",
         "uuid": "57f1a258-7b41-4712-b390-4a538c470a3a"
+      },
+      {
+        "filename": "rampmod.kicad_sch",
+        "name": "RampMod",
+        "uuid": "8630942e-0e31-4116-89c8-68d4a6245b84"
       }
     ],
-    "used_designators": "U1-2,J1-4,R1-24,TH1,RV1-4,#PWR1-21,C1-7,Q1-2,D1-2",
+    "used_designators": "RV5-10,D3-8,#PWR22-53,C8-15,J5-10,R25-50,U3-6",
     "variants": []
   },
   "sheets": [
     [
       "57f1a258-7b41-4712-b390-4a538c470a3a",
       "Core"
+    ],
+    [
+      "8630942e-0e31-4116-89c8-68d4a6245b84",
+      "RampMod"
     ]
   ],
   "text_variables": {},
